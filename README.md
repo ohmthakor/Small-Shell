@@ -18,7 +18,7 @@ Custom Prompt: Displays : as the command prompt.
 ### Background Processes:
 - Supports running commands in the background using &.
 - Manages background process IDs and cleans up completed processes.
-- 
+  
 ### Signal Handling:
 - Ignores SIGINT (Ctrl+C) in the shell itself but allows foreground child processes to terminate.
 - Toggles between foreground-only and normal modes using SIGTSTP (Ctrl+Z).
