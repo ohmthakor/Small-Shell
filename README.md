@@ -6,14 +6,14 @@ Smallsh is a custom-built shell program written in C that implements a subset of
 
 ## Features
 
-Custom Prompt: Displays : as the command prompt.
-Built-in Commands:
-exit: Terminates the shell and all child processes.
-cd: Changes the working directory.
-status: Reports the exit status or terminating signal of the last foreground process.
-Command Execution: Executes external commands via the exec() family of functions.
-Input/Output Redirection: Redirects stdin and stdout using < and > operators.
-Background Processes:
+Custom Prompt: Displays : as the command prompt.  
+Built-in Commands: 
+exit: Terminates the shell and all child processes.  
+cd: Changes the working directory.  
+status: Reports the exit status or terminating signal of the last foreground process.  
+Command Execution: Executes external commands via the exec() family of functions.  
+Input/Output Redirection: Redirects stdin and stdout using < and > operators.  
+Background Processes:  
 Supports running commands in the background using &.
 Manages background process IDs and cleans up completed processes.
 Signal Handling:
