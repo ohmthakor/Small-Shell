@@ -14,9 +14,9 @@ status: Reports the exit status or terminating signal of the last foreground pro
 Command Execution: Executes external commands via the exec() family of functions.  
 Input/Output Redirection: Redirects stdin and stdout using < and > operators.  
 Background Processes:  
-Supports running commands in the background using &.
-Manages background process IDs and cleans up completed processes.
-Signal Handling:
-Ignores SIGINT (Ctrl+C) in the shell itself but allows foreground child processes to terminate.
-Toggles between foreground-only and normal modes using SIGTSTP (Ctrl+Z).
-Variable Expansion: Expands $$ to the PID of the shell.
+Supports running commands in the background using &.  
+Manages background process IDs and cleans up completed processes.  
+Signal Handling:  
+Ignores SIGINT (Ctrl+C) in the shell itself but allows foreground child processes to terminate.  
+Toggles between foreground-only and normal modes using SIGTSTP (Ctrl+Z).  
+Variable Expansion: Expands $$ to the PID of the shell.  
