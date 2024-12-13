@@ -2,7 +2,7 @@
 
 ## Overview
 
-smallsh is a custom-built shell program written in C that implements a subset of features found in well-known Unix/Linux shells, such as bash. This shell supports commands execution, input/output redirection, background processes, and signal handling.
+Smallsh is a custom-built shell program written in C that implements a subset of features found in well-known Unix/Linux shells, such as bash. This shell supports commands execution, input/output redirection, background processes, and signal handling.
 
 Features
 
