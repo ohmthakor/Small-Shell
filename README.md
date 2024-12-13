@@ -4,7 +4,7 @@
 
 Smallsh is a custom-built shell program written in C that implements a subset of features found in well-known Unix/Linux shells, such as bash. This shell supports commands execution, input/output redirection, background processes, and signal handling. This project was developed as part of the CS 374 course at OSU.
 
-Features
+## Features
 
 Custom Prompt: Displays : as the command prompt.
 Built-in Commands:
